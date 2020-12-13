@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\WEB.csproj",
-      "projectName": "WEB",
-      "projectPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\WEB.csproj",
+      "projectUniqueName": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\Web\\Web.csproj",
+      "projectName": "Web",
+      "projectPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\Web\\Web.csproj",
       "packagesPath": "C:\\Users\\Dimitar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\obj\\",
+      "outputPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
