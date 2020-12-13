@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MocUpOfAudiSotre", "MocUpOfAudiSotre\MocUpOfAudiSotre.csproj", "{079A87FC-D535-4A2E-B028-EDFA169F63D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "MocUpOfAudiSotre\Web.csproj", "{079A87FC-D535-4A2E-B028-EDFA169F63D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

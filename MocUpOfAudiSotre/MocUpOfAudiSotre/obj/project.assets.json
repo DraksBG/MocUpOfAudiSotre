@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre.csproj",
-      "projectName": "MocUpOfAudiSotre",
-      "projectPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre.csproj",
+      "projectUniqueName": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\WEB.csproj",
+      "projectName": "WEB",
+      "projectPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\WEB.csproj",
       "packagesPath": "C:\\Users\\Dimitar\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\MocUpOfAudiSotre\\obj\\",
       "projectStyle": "PackageReference",
