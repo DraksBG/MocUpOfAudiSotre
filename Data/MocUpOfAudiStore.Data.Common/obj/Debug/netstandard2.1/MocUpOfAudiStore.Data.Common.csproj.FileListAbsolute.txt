@@ -1,0 +1,9 @@
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.deps.json
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.csprojAssemblyReference.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.AssemblyInfoInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.AssemblyInfo.cs
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.csproj.CoreCompileInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.pdb

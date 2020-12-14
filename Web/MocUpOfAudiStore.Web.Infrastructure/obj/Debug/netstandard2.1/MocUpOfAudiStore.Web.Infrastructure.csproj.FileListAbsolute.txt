@@ -1,0 +1,9 @@
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.Infrastructure\bin\Debug\netstandard2.1\MocUpOfAudiStore.Web.Infrastructure.deps.json
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.Infrastructure\bin\Debug\netstandard2.1\MocUpOfAudiStore.Web.Infrastructure.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.Infrastructure\bin\Debug\netstandard2.1\MocUpOfAudiStore.Web.Infrastructure.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.Infrastructure\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.Infrastructure\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.Infrastructure\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.Infrastructure\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.Infrastructure\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.Infrastructure.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.Infrastructure\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.Infrastructure.pdb

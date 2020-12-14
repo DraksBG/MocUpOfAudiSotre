@@ -1,0 +1,9 @@
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.deps.json
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.csprojAssemblyReference.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.AssemblyInfoInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.AssemblyInfo.cs
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.csproj.CoreCompileInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.pdb

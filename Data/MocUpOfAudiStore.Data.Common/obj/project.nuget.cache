@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "p0Kn1pUaKJZ+XFEqSTos0J0oIn2C/SFEYKhk8z4VUf+3BjcdhlUKT0kCgwvAGONAUTDFau5puHyyCG1blUIqlg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Data\\MocUpOfAudiStore.Data.Common\\MocUpOfAudiStore.Data.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dimitar\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.304\\stylecop.analyzers.1.2.0-beta.304.nupkg.sha512",
+    "C:\\Users\\Dimitar\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.304\\stylecop.analyzers.unstable.1.2.0.304.nupkg.sha512",
+    "C:\\Users\\Dimitar\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

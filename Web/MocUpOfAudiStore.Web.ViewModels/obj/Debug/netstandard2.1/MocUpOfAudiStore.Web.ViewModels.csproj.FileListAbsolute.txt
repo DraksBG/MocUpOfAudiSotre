@@ -1,0 +1,16 @@
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.deps.json
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Models.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Models.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.csprojAssemblyReference.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.AssemblyInfo.cs
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.csproj.CopyComplete
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.pdb

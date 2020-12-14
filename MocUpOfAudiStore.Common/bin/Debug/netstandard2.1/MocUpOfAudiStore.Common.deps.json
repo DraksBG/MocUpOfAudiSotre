@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "MocUpOfAudiStore.Common/1.0.0": {
+        "dependencies": {
+          "StyleCop.Analyzers": "1.2.0-beta.304"
+        },
+        "runtime": {
+          "MocUpOfAudiStore.Common.dll": {}
+        }
+      },
+      "StyleCop.Analyzers/1.2.0-beta.304": {
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.304"
+        }
+      },
+      "StyleCop.Analyzers.Unstable/1.2.0.304": {}
+    }
+  },
+  "libraries": {
+    "MocUpOfAudiStore.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StyleCop.Analyzers/1.2.0-beta.304": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bCa4t2BtRP4aZy3xXG/u1FKq/2j7E8F3uRjDoHpzg2BLvxOsrESivKnKGTbJy7e+X/86KlHZdMY2ihoY17rCXA==",
+      "path": "stylecop.analyzers/1.2.0-beta.304",
+      "hashPath": "stylecop.analyzers.1.2.0-beta.304.nupkg.sha512"
+    },
+    "StyleCop.Analyzers.Unstable/1.2.0.304": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qMBIxXiDa7QyAbZf3VkAl/aeFt3sUJIIgAQ/H0b4dtHWeHQdEcVfmCEDFuwMs6YVpQAs1p0grKEAay9OkkIjqA==",
+      "path": "stylecop.analyzers.unstable/1.2.0.304",
+      "hashPath": "stylecop.analyzers.unstable.1.2.0.304.nupkg.sha512"
+    }
+  }
+}

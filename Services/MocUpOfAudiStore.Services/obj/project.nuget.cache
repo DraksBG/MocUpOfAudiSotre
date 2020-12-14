@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "I6k85GzETyYA2GTLLUckhmTq0oBm7X6ajZg3+TulFphEGiFYelnfjJLzC4wABE27Oreydanx6XGQET4Jj2hcfg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Services\\MocUpOfAudiStore.Services\\MocUpOfAudiStore.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dimitar\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.304\\stylecop.analyzers.1.2.0-beta.304.nupkg.sha512",
+    "C:\\Users\\Dimitar\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.304\\stylecop.analyzers.unstable.1.2.0.304.nupkg.sha512"
+  ],
+  "logs": []
+}

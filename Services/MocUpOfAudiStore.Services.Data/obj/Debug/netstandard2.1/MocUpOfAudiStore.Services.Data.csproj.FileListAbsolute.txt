@@ -1,0 +1,16 @@
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.deps.json
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Models.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Models.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.csprojAssemblyReference.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.AssemblyInfoInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.AssemblyInfo.cs
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.csproj.CoreCompileInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.csproj.CopyComplete
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.pdb

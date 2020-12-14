@@ -1,0 +1,9 @@
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Mapping\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.deps.json
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Mapping\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Mapping\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Mapping\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.csprojAssemblyReference.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Mapping\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.AssemblyInfoInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Mapping\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.AssemblyInfo.cs
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Mapping\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Mapping\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Mapping\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.pdb
