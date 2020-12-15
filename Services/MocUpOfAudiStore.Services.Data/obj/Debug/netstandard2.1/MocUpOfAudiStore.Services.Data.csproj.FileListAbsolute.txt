@@ -14,3 +14,5 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Servi
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.csproj.CopyComplete
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.Data.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Common.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services.Data\bin\Debug\netstandard2.1\MocUpOfAudiStore.Common.pdb

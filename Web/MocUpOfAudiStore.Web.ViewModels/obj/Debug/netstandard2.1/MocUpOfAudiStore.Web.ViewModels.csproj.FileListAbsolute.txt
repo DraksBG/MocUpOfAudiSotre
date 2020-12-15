@@ -14,3 +14,5 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewMo
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.csproj.CopyComplete
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\obj\Debug\netstandard2.1\MocUpOfAudiStore.Web.ViewModels.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Common.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Web\MocUpOfAudiStore.Web.ViewModels\bin\Debug\netstandard2.1\MocUpOfAudiStore.Common.pdb

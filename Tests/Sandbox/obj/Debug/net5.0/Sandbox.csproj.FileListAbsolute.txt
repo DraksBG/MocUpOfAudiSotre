@@ -67,3 +67,7 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\Sandbox\obj\Debug\net5.0\
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\Sandbox\obj\Debug\net5.0\ref\Sandbox.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\Sandbox\obj\Debug\net5.0\Sandbox.pdb
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\Sandbox\obj\Debug\net5.0\Sandbox.genruntimeconfig.cache
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\Sandbox\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\Sandbox\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\Sandbox\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\Sandbox\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

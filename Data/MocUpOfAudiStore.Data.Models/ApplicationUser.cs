@@ -1,12 +1,14 @@
 ﻿// ReSharper disable VirtualMemberCallInConstructor
+
 namespace MocUpOfAudiStore.Data.Models
 {
     using System;
     using System.Collections.Generic;
-
-    using MocUpOfAudiStore.Data.Common.Models;
+    using System.ComponentModel.DataAnnotations;
 
     using Microsoft.AspNetCore.Identity;
+    using MocUpOfAudiStore.Common.Constants;
+    using MocUpOfAudiStore.Data.Common.Models;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {
@@ -17,6 +19,16 @@ namespace MocUpOfAudiStore.Data.Models
             this.Claims = new HashSet<IdentityUserClaim<string>>();
             this.Logins = new HashSet<IdentityUserLogin<string>>();
         }
+
+        [MaxLength(ModelConstatns.UserNameMaxLength)]
+        [MinLength(ModelConstatns.UserNameMinLength)]
+        [Required]
+        public string FirstName { get; set; }
+
+        [MaxLength(ModelConstatns.UserNameMaxLength)]
+        [MinLength(ModelConstatns.UserNameMinLength)]
+        [Required]
+        public string LastName { get; set; }
 
         // Audit info
         public DateTime CreatedOn { get; set; }
@@ -33,5 +45,7 @@ namespace MocUpOfAudiStore.Data.Models
         public virtual ICollection<IdentityUserClaim<string>> Claims { get; set; }
 
         public virtual ICollection<IdentityUserLogin<string>> Logins { get; set; }
+
+        public ICollection<TestDrive> TestDrives { get; set; } = new List<TestDrive>();
     }
 }
