@@ -3107,6 +3107,9 @@
         }
       },
       "MocUpOfAudiStore.Services/1.0.0": {
+        "dependencies": {
+          "MocUpOfAudiStore.Data.Models": "1.0.0"
+        },
         "runtime": {
           "MocUpOfAudiStore.Services.dll": {}
         },

@@ -7,3 +7,12 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Servi
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.csproj.CoreCompileInputs.cache
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Common.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Models.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Models.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Common.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\bin\Debug\netstandard2.1\MocUpOfAudiStore.Services.Mapping.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Services\MocUpOfAudiStore.Services\obj\Debug\netstandard2.1\MocUpOfAudiStore.Services.csproj.CopyComplete

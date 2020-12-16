@@ -1,4 +1,6 @@
-﻿namespace MocUpOfAudiStore.Web.Controllers
+﻿using MocUpOfAudiStore.Services.Interfaces;
+
+namespace MocUpOfAudiStore.Web.Controllers
 {
     using System.Diagnostics;
 
@@ -7,8 +9,15 @@
 
     public class HomeController : BaseController
     {
+        private readonly IHomeService homeService;
+        //private readonly ICarsService carsService;
+        //private readonly ICarRepository carRepository;
+        //private readonly ICacheService cacheService;
+        
+        [HttpGet]
         public IActionResult Index()
         {
+
             return this.View();
         }
 
