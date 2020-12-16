@@ -2,13 +2,12 @@
 {
     using System;
     using System.Linq;
+    using System.Linq.Expressions;
     using System.Threading.Tasks;
 
-    using MocUpOfAudiStore.Data.Common.Repositories;
-
     using Microsoft.EntityFrameworkCore;
-    using System.Linq.Expressions;
     using Microsoft.EntityFrameworkCore.Metadata;
+    using MocUpOfAudiStore.Data.Common.Repositories;
 
     public class EfRepository<TEntity> : IRepository<TEntity>
         where TEntity : class

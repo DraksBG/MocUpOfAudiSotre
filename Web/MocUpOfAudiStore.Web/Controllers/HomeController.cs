@@ -2,9 +2,8 @@
 {
     using System.Diagnostics;
 
-    using MocUpOfAudiStore.Web.ViewModels;
-
     using Microsoft.AspNetCore.Mvc;
+    using MocUpOfAudiStore.Web.ViewModels;
 
     public class HomeController : BaseController
     {

@@ -1,9 +1,8 @@
 ﻿namespace MocUpOfAudiStore.Web.Areas.Administration.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
     using MocUpOfAudiStore.Services.Data;
     using MocUpOfAudiStore.Web.ViewModels.Administration.Dashboard;
-
-    using Microsoft.AspNetCore.Mvc;
 
     public class DashboardController : AdministrationController
     {

@@ -4,15 +4,12 @@
     using System.Linq;
     using System.Threading.Tasks;
 
+    using Microsoft.EntityFrameworkCore;
     using MocUpOfAudiStore.Data;
     using MocUpOfAudiStore.Data.Common.Repositories;
     using MocUpOfAudiStore.Data.Models;
     using MocUpOfAudiStore.Data.Repositories;
-
-    using Microsoft.EntityFrameworkCore;
-
     using Moq;
-
     using Xunit;
 
     public class SettingsServiceTests

@@ -3,12 +3,11 @@
     using System;
     using System.Threading.Tasks;
 
+    using Microsoft.AspNetCore.Mvc;
     using MocUpOfAudiStore.Data.Common.Repositories;
     using MocUpOfAudiStore.Data.Models;
     using MocUpOfAudiStore.Services.Data;
     using MocUpOfAudiStore.Web.ViewModels.Settings;
-
-    using Microsoft.AspNetCore.Mvc;
 
     public class SettingsController : BaseController
     {

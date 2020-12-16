@@ -1,8 +1,9 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
-
-namespace MocUpOfAudiStore.Data.Migrations
+﻿namespace MocUpOfAudiStore.Data.Migrations
 {
+    using System;
+
+    using Microsoft.EntityFrameworkCore.Migrations;
+
     public partial class AddedInterfacesForRepositories : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

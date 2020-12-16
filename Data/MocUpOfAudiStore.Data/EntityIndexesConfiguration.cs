@@ -2,9 +2,8 @@
 {
     using System.Linq;
 
-    using MocUpOfAudiStore.Data.Common.Models;
-
     using Microsoft.EntityFrameworkCore;
+    using MocUpOfAudiStore.Data.Common.Models;
 
     internal static class EntityIndexesConfiguration
     {

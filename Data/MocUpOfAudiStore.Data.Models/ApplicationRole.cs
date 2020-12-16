@@ -3,9 +3,8 @@ namespace MocUpOfAudiStore.Data.Models
 {
     using System;
 
-    using MocUpOfAudiStore.Data.Common.Models;
-
     using Microsoft.AspNetCore.Identity;
+    using MocUpOfAudiStore.Data.Common.Models;
 
     public class ApplicationRole : IdentityRole, IAuditInfo, IDeletableEntity
     {

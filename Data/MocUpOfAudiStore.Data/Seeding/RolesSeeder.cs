@@ -4,11 +4,10 @@
     using System.Linq;
     using System.Threading.Tasks;
 
-    using MocUpOfAudiStore.Common;
-    using MocUpOfAudiStore.Data.Models;
-
     using Microsoft.AspNetCore.Identity;
     using Microsoft.Extensions.DependencyInjection;
+    using MocUpOfAudiStore.Common;
+    using MocUpOfAudiStore.Data.Models;
 
     internal class RolesSeeder : ISeeder
     {

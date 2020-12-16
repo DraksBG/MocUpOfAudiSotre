@@ -1,9 +1,8 @@
 ﻿namespace MocUpOfAudiStore.Web.ViewModels.Settings
 {
+    using AutoMapper;
     using MocUpOfAudiStore.Data.Models;
     using MocUpOfAudiStore.Services.Mapping;
-
-    using AutoMapper;
 
     public class SettingViewModel : IMapFrom<Setting>, IHaveCustomMappings
     {

@@ -5,6 +5,11 @@
     using System.IO;
     using System.Threading.Tasks;
 
+    using CommandLine;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
     using MocUpOfAudiStore.Data;
     using MocUpOfAudiStore.Data.Common;
     using MocUpOfAudiStore.Data.Common.Repositories;
@@ -13,13 +18,6 @@
     using MocUpOfAudiStore.Data.Seeding;
     using MocUpOfAudiStore.Services.Data;
     using MocUpOfAudiStore.Services.Messaging;
-
-    using CommandLine;
-
-    using Microsoft.EntityFrameworkCore;
-    using Microsoft.Extensions.Configuration;
-    using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.Logging;
 
     public static class Program
     {

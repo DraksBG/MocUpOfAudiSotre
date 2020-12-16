@@ -3,9 +3,8 @@
     using System;
     using System.Threading.Tasks;
 
-    using MocUpOfAudiStore.Data.Common;
-
     using Microsoft.EntityFrameworkCore;
+    using MocUpOfAudiStore.Data.Common;
 
     public class DbQueryRunner : IDbQueryRunner
     {
