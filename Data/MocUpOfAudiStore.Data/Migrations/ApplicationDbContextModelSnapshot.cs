@@ -585,7 +585,7 @@ namespace MocUpOfAudiStore.Data.Migrations
                     b.Property<DateTime>("ScheduleDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2020, 12, 15, 15, 53, 45, 394, DateTimeKind.Utc).AddTicks(2899));
+                        .HasDefaultValue(new DateTime(2020, 12, 16, 10, 36, 3, 956, DateTimeKind.Utc).AddTicks(3911));
 
                     b.Property<string>("StatusId")
                         .IsRequired()

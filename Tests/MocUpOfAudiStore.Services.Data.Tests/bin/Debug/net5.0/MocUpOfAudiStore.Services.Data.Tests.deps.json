@@ -2346,6 +2346,8 @@
       },
       "MocUpOfAudiStore.Data.Common/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "MocUpOfAudiStore.Common": "1.0.0",
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {

@@ -7,3 +7,6 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Comm
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.csproj.CoreCompileInputs.cache
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\bin\Debug\netstandard2.1\MocUpOfAudiStore.Common.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\bin\Debug\netstandard2.1\MocUpOfAudiStore.Common.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data.Common\obj\Debug\netstandard2.1\MocUpOfAudiStore.Data.Common.csproj.CopyComplete

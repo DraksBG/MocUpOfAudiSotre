@@ -1,6 +1,5 @@
 ﻿namespace MocUpOfAudiStore.Data.Models
 {
-    using System;
     using System.ComponentModel.DataAnnotations;
 
     using MocUpOfAudiStore.Common.Constants;
