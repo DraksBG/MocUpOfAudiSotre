@@ -36,8 +36,6 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Test
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -112,7 +110,6 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Test
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -123,8 +120,6 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Test
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -536,3 +531,9 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Test
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\obj\Debug\net5.0\MocUpOfAudiStore.Web.Tests.genruntimeconfig.cache
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll

@@ -2,10 +2,9 @@
 {
     using System.Linq;
     using System.Threading.Tasks;
-
     using Microsoft.EntityFrameworkCore;
-    using MocUpOfAudiStore.Data.Interfaces;
-    using MocUpOfAudiStore.Data.Models;
+    using Interfaces;
+    using Models;
 
     public class UserRepository : BaseRepository<ApplicationUser>, IUserRepository
     {
@@ -16,7 +15,7 @@
 
         public async Task<ApplicationUser> GetByEmailOrDefault(string email)
         {
-            var user = await this.GetAll()
+            var user = await GetAll()
                 .Where(u => u.NormalizedEmail == email.ToUpper())
                 .FirstOrDefaultAsync();
 
@@ -25,7 +24,7 @@
 
         public async Task<ApplicationUser> GetByIdWithRolesAsync(string userId)
         {
-            var dbUser = await this.GetAll()
+            var dbUser = await GetAll()
                 .Include(u => u.Roles)
                 .Where(u => u.Id == userId)
                 .FirstOrDefaultAsync();

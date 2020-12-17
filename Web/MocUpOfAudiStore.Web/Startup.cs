@@ -1,7 +1,14 @@
-﻿namespace MocUpOfAudiStore.Web
+﻿using Microsoft.EntityFrameworkCore.Internal;
+using MocUpOfAudiStore.Data.Interfaces;
+using MocUpOfAudiStore.Data.Services;
+using MocUpOfAudiStore.Services.Interfaces;
+using MocUpOfAudiStore.Web.Infrastructure.ServiceRegistration;
+
+namespace MocUpOfAudiStore.Web
 {
     using System.Reflection;
 
+    using AutoMapper;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Http;
@@ -53,7 +60,6 @@
                     }).AddRazorRuntimeCompilation();
             services.AddRazorPages();
             services.AddDatabaseDeveloperPageExceptionFilter();
-
             services.AddSingleton(this.configuration);
 
             // Data repositories
@@ -61,6 +67,10 @@
             services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
             services.AddScoped<IDbQueryRunner, DbQueryRunner>();
 
+            services.AddTransient<ICarRepository, CarRepository>();
+            services.AddTransient<ICarModelTypeService, CarModelTypeService>();
+            //this.RegisterServiceLayer(services);
+            
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
             services.AddTransient<ISettingsService, SettingsService>();
@@ -107,5 +117,11 @@
                         endpoints.MapRazorPages();
                     });
         }
+        //private void RegisterServiceLayer(IServiceCollection service)
+        //{
+        //    var serviceRegistration = new ServiceCollectionRegistrar(service);
+        //    serviceRegistration.AddScopedServices(typeof(CarRepository));
+        //    serviceRegistration.AddScopedServices(typeof(CarModelTypeService));
+        //}
     }
 }

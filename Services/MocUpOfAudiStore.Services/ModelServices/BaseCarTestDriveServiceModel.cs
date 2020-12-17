@@ -1,14 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using AutoMapper;
-using MocUpOfAudiStore.Common.Enums;
-using MocUpOfAudiStore.Data.Models;
-using MocUpOfAudiStore.Services.Mapping;
-
-namespace MocUpOfAudiStore.Services.ModelServices
+﻿namespace MocUpOfAudiStore.Services.ModelServices
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
+    using AutoMapper;
+    using MocUpOfAudiStore.Common.Enums;
+    using MocUpOfAudiStore.Data.Models;
+    using MocUpOfAudiStore.Services.Mapping;
+
     public abstract class BaseCarTestDriveServiceModel : BaseCarServiceModel, IMapFrom<BaseCar>, IMapFrom<UsedCar>,
         IMapFrom<NewCar>, IHaveCustomMappings
     {

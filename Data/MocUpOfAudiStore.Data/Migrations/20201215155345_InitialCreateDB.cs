@@ -1,7 +1,6 @@
 ﻿namespace MocUpOfAudiStore.Data.Migrations
 {
     using System;
-
     using Microsoft.EntityFrameworkCore.Migrations;
 
     public partial class InitialCreateDB : Migration
@@ -9,389 +8,372 @@
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
-                name: "FK_AspNetUserRoles_AspNetUsers_UserId",
-                table: "AspNetUserRoles");
+                "FK_AspNetUserRoles_AspNetUsers_UserId",
+                "AspNetUserRoles");
 
             migrationBuilder.AddColumn<string>(
-                name: "FirstName",
-                table: "AspNetUsers",
-                type: "nvarchar(40)",
+                "FirstName",
+                "AspNetUsers",
+                "nvarchar(40)",
                 maxLength: 40,
                 nullable: false,
                 defaultValue: "");
 
             migrationBuilder.AddColumn<string>(
-                name: "LastName",
-                table: "AspNetUsers",
-                type: "nvarchar(40)",
+                "LastName",
+                "AspNetUsers",
+                "nvarchar(40)",
                 maxLength: 40,
                 nullable: false,
                 defaultValue: "");
 
             migrationBuilder.CreateTable(
-                name: "FuelTypes",
-                columns: table => new
+                "FuelTypes",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    Name = table.Column<string>("nvarchar(15)", maxLength: 15, nullable: false)
                 },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_FuelTypes", x => x.Id);
-                });
+                constraints: table => { table.PrimaryKey("PK_FuelTypes", x => x.Id); });
 
             migrationBuilder.CreateTable(
-                name: "ModelTypes",
-                columns: table => new
+                "ModelTypes",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    Name = table.Column<string>("nvarchar(15)", maxLength: 15, nullable: false)
                 },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ModelTypes", x => x.Id);
-                });
+                constraints: table => { table.PrimaryKey("PK_ModelTypes", x => x.Id); });
 
             migrationBuilder.CreateTable(
-                name: "OptionTypes",
-                columns: table => new
+                "OptionTypes",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    Name = table.Column<string>("nvarchar(50)", maxLength: 50, nullable: false)
                 },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_OptionTypes", x => x.Id);
-                });
+                constraints: table => { table.PrimaryKey("PK_OptionTypes", x => x.Id); });
 
             migrationBuilder.CreateTable(
-                name: "Series",
-                columns: table => new
+                "Series",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    Name = table.Column<string>("nvarchar(15)", maxLength: 15, nullable: false)
                 },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Series", x => x.Id);
-                });
+                constraints: table => { table.PrimaryKey("PK_Series", x => x.Id); });
 
             migrationBuilder.CreateTable(
-                name: "Statuses",
-                columns: table => new
+                "Statuses",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    Name = table.Column<string>("nvarchar(15)", maxLength: 15, nullable: false)
                 },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Statuses", x => x.Id);
-                });
+                constraints: table => { table.PrimaryKey("PK_Statuses", x => x.Id); });
 
             migrationBuilder.CreateTable(
-                name: "Transmissions",
-                columns: table => new
+                "Transmissions",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    Name = table.Column<string>("nvarchar(40)", maxLength: 40, nullable: false),
+                    Price = table.Column<decimal>("decimal(18,2)", nullable: false)
                 },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Transmissions", x => x.Id);
-                });
+                constraints: table => { table.PrimaryKey("PK_Transmissions", x => x.Id); });
 
             migrationBuilder.CreateTable(
-                name: "Options",
-                columns: table => new
+                "Options",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    OptionTypeId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    Name = table.Column<string>("nvarchar(50)", maxLength: 50, nullable: false),
+                    Price = table.Column<decimal>("decimal(18,2)", nullable: false),
+                    OptionTypeId = table.Column<string>("nvarchar(450)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Options", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Options_OptionTypes_OptionTypeId",
-                        column: x => x.OptionTypeId,
-                        principalTable: "OptionTypes",
-                        principalColumn: "Id",
+                        "FK_Options_OptionTypes_OptionTypeId",
+                        x => x.OptionTypeId,
+                        "OptionTypes",
+                        "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Engines",
-                columns: table => new
+                "Engines",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    TransmissionId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Weight_Kg = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    Name = table.Column<string>("nvarchar(50)", maxLength: 50, nullable: false),
+                    Price = table.Column<decimal>("decimal(18,2)", nullable: false),
+                    TransmissionId = table.Column<string>("nvarchar(450)", nullable: false),
+                    Weight_Kg = table.Column<int>("int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Engines", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Engines_Transmissions_TransmissionId",
-                        column: x => x.TransmissionId,
-                        principalTable: "Transmissions",
-                        principalColumn: "Id",
+                        "FK_Engines_Transmissions_TransmissionId",
+                        x => x.TransmissionId,
+                        "Transmissions",
+                        "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "BaseCars",
-                columns: table => new
+                "BaseCars",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Acceleration_0_100Km = table.Column<double>(type: "float", nullable: false),
-                    CO2Emissions = table.Column<int>(type: "int", nullable: false),
-                    ColorName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
-                    Displacement = table.Column<double>(type: "float", nullable: false),
-                    DoorsCount = table.Column<int>(type: "int", nullable: false),
-                    EngineId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    FuelConsumation_City_Litres_100Km = table.Column<double>(type: "float", nullable: false),
-                    FuelConsumation_Highway_Litres_100Km = table.Column<double>(type: "float", nullable: false),
-                    FuelTypeId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    HoursePower = table.Column<double>(type: "float", nullable: false),
-                    ModelTypeId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    SeriesId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Torque = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Vin = table.Column<string>(type: "nvarchar(17)", maxLength: 17, nullable: false),
-                    WarrantyMonthsLeft = table.Column<int>(type: "int", nullable: false),
-                    Weight_Kg = table.Column<int>(type: "int", nullable: false),
-                    Year = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Mileage = table.Column<double>(type: "float", nullable: true)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    Acceleration_0_100Km = table.Column<double>("float", nullable: false),
+                    CO2Emissions = table.Column<int>("int", nullable: false),
+                    ColorName = table.Column<string>("nvarchar(max)", nullable: false),
+                    Description = table.Column<string>("nvarchar(1000)", maxLength: 1000, nullable: false),
+                    Displacement = table.Column<double>("float", nullable: false),
+                    DoorsCount = table.Column<int>("int", nullable: false),
+                    EngineId = table.Column<string>("nvarchar(450)", nullable: false),
+                    FuelConsumation_City_Litres_100Km = table.Column<double>("float", nullable: false),
+                    FuelConsumation_Highway_Litres_100Km = table.Column<double>("float", nullable: false),
+                    FuelTypeId = table.Column<string>("nvarchar(450)", nullable: false),
+                    HoursePower = table.Column<double>("float", nullable: false),
+                    ModelTypeId = table.Column<string>("nvarchar(450)", nullable: false),
+                    Name = table.Column<string>("nvarchar(50)", maxLength: 50, nullable: false),
+                    Price = table.Column<decimal>("decimal(18,2)", nullable: false),
+                    SeriesId = table.Column<string>("nvarchar(450)", nullable: false),
+                    Torque = table.Column<decimal>("decimal(18,2)", nullable: false),
+                    Vin = table.Column<string>("nvarchar(17)", maxLength: 17, nullable: false),
+                    WarrantyMonthsLeft = table.Column<int>("int", nullable: false),
+                    Weight_Kg = table.Column<int>("int", nullable: false),
+                    Year = table.Column<string>("nvarchar(max)", nullable: true),
+                    Discriminator = table.Column<string>("nvarchar(max)", nullable: false),
+                    Mileage = table.Column<double>("float", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_BaseCars", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_BaseCars_Engines_EngineId",
-                        column: x => x.EngineId,
-                        principalTable: "Engines",
-                        principalColumn: "Id",
+                        "FK_BaseCars_Engines_EngineId",
+                        x => x.EngineId,
+                        "Engines",
+                        "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_BaseCars_FuelTypes_FuelTypeId",
-                        column: x => x.FuelTypeId,
-                        principalTable: "FuelTypes",
-                        principalColumn: "Id",
+                        "FK_BaseCars_FuelTypes_FuelTypeId",
+                        x => x.FuelTypeId,
+                        "FuelTypes",
+                        "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_BaseCars_ModelTypes_ModelTypeId",
-                        column: x => x.ModelTypeId,
-                        principalTable: "ModelTypes",
-                        principalColumn: "Id",
+                        "FK_BaseCars_ModelTypes_ModelTypeId",
+                        x => x.ModelTypeId,
+                        "ModelTypes",
+                        "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_BaseCars_Series_SeriesId",
-                        column: x => x.SeriesId,
-                        principalTable: "Series",
-                        principalColumn: "Id",
+                        "FK_BaseCars_Series_SeriesId",
+                        x => x.SeriesId,
+                        "Series",
+                        "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "CarsOptions",
-                columns: table => new
+                "CarsOptions",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    CarId = table.Column<string>(type: "nvarchar(450)", nullable: true),
-                    OptionId = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    CarId = table.Column<string>("nvarchar(450)", nullable: true),
+                    OptionId = table.Column<string>("nvarchar(450)", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_CarsOptions", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_CarsOptions_BaseCars_CarId",
-                        column: x => x.CarId,
-                        principalTable: "BaseCars",
-                        principalColumn: "Id",
+                        "FK_CarsOptions_BaseCars_CarId",
+                        x => x.CarId,
+                        "BaseCars",
+                        "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_CarsOptions_Options_OptionId",
-                        column: x => x.OptionId,
-                        principalTable: "Options",
-                        principalColumn: "Id",
+                        "FK_CarsOptions_Options_OptionId",
+                        x => x.OptionId,
+                        "Options",
+                        "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Pictures",
-                columns: table => new
+                "Pictures",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    CarId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    PublicId = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    CarId = table.Column<string>("nvarchar(450)", nullable: false),
+                    PublicId = table.Column<string>("nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Pictures", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Pictures_BaseCars_CarId",
-                        column: x => x.CarId,
-                        principalTable: "BaseCars",
-                        principalColumn: "Id",
+                        "FK_Pictures_BaseCars_CarId",
+                        x => x.CarId,
+                        "BaseCars",
+                        "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "TestDrives",
-                columns: table => new
+                "TestDrives",
+                table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    CarId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    StatusId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    ScheduleDate = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2020, 12, 15, 15, 53, 45, 394, DateTimeKind.Utc).AddTicks(2899)),
-                    Comment = table.Column<string>(type: "nvarchar(300)", maxLength: 300, nullable: true)
+                    Id = table.Column<string>("nvarchar(450)", nullable: false),
+                    CarId = table.Column<string>("nvarchar(450)", nullable: false),
+                    UserId = table.Column<string>("nvarchar(450)", nullable: false),
+                    StatusId = table.Column<string>("nvarchar(450)", nullable: false),
+                    ScheduleDate = table.Column<DateTime>("datetime2", nullable: false,
+                        defaultValue: new DateTime(2020, 12, 15, 15, 53, 45, 394, DateTimeKind.Utc).AddTicks(2899)),
+                    Comment = table.Column<string>("nvarchar(300)", maxLength: 300, nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_TestDrives", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_TestDrives_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
+                        "FK_TestDrives_AspNetUsers_UserId",
+                        x => x.UserId,
+                        "AspNetUsers",
+                        "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_TestDrives_BaseCars_CarId",
-                        column: x => x.CarId,
-                        principalTable: "BaseCars",
-                        principalColumn: "Id",
+                        "FK_TestDrives_BaseCars_CarId",
+                        x => x.CarId,
+                        "BaseCars",
+                        "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_TestDrives_Statuses_StatusId",
-                        column: x => x.StatusId,
-                        principalTable: "Statuses",
-                        principalColumn: "Id",
+                        "FK_TestDrives_Statuses_StatusId",
+                        x => x.StatusId,
+                        "Statuses",
+                        "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_BaseCars_EngineId",
-                table: "BaseCars",
-                column: "EngineId");
+                "IX_BaseCars_EngineId",
+                "BaseCars",
+                "EngineId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_BaseCars_FuelTypeId",
-                table: "BaseCars",
-                column: "FuelTypeId");
+                "IX_BaseCars_FuelTypeId",
+                "BaseCars",
+                "FuelTypeId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_BaseCars_ModelTypeId",
-                table: "BaseCars",
-                column: "ModelTypeId");
+                "IX_BaseCars_ModelTypeId",
+                "BaseCars",
+                "ModelTypeId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_BaseCars_SeriesId",
-                table: "BaseCars",
-                column: "SeriesId");
+                "IX_BaseCars_SeriesId",
+                "BaseCars",
+                "SeriesId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CarsOptions_CarId",
-                table: "CarsOptions",
-                column: "CarId");
+                "IX_CarsOptions_CarId",
+                "CarsOptions",
+                "CarId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CarsOptions_OptionId_CarId",
-                table: "CarsOptions",
-                columns: new[] { "OptionId", "CarId" },
+                "IX_CarsOptions_OptionId_CarId",
+                "CarsOptions",
+                new[] {"OptionId", "CarId"},
                 unique: true,
                 filter: "[OptionId] IS NOT NULL AND [CarId] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Engines_Name",
-                table: "Engines",
-                column: "Name",
+                "IX_Engines_Name",
+                "Engines",
+                "Name",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Engines_TransmissionId",
-                table: "Engines",
-                column: "TransmissionId");
+                "IX_Engines_TransmissionId",
+                "Engines",
+                "TransmissionId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_FuelTypes_Name",
-                table: "FuelTypes",
-                column: "Name",
+                "IX_FuelTypes_Name",
+                "FuelTypes",
+                "Name",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_ModelTypes_Name",
-                table: "ModelTypes",
-                column: "Name",
+                "IX_ModelTypes_Name",
+                "ModelTypes",
+                "Name",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Options_Name",
-                table: "Options",
-                column: "Name",
+                "IX_Options_Name",
+                "Options",
+                "Name",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Options_OptionTypeId",
-                table: "Options",
-                column: "OptionTypeId");
+                "IX_Options_OptionTypeId",
+                "Options",
+                "OptionTypeId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_OptionTypes_Name",
-                table: "OptionTypes",
-                column: "Name",
+                "IX_OptionTypes_Name",
+                "OptionTypes",
+                "Name",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Pictures_CarId",
-                table: "Pictures",
-                column: "CarId");
+                "IX_Pictures_CarId",
+                "Pictures",
+                "CarId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Series_Name",
-                table: "Series",
-                column: "Name",
+                "IX_Series_Name",
+                "Series",
+                "Name",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Statuses_Name",
-                table: "Statuses",
-                column: "Name",
+                "IX_Statuses_Name",
+                "Statuses",
+                "Name",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_TestDrives_CarId",
-                table: "TestDrives",
-                column: "CarId");
+                "IX_TestDrives_CarId",
+                "TestDrives",
+                "CarId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_TestDrives_StatusId",
-                table: "TestDrives",
-                column: "StatusId");
+                "IX_TestDrives_StatusId",
+                "TestDrives",
+                "StatusId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_TestDrives_UserId",
-                table: "TestDrives",
-                column: "UserId");
+                "IX_TestDrives_UserId",
+                "TestDrives",
+                "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Transmissions_Name",
-                table: "Transmissions",
-                column: "Name",
+                "IX_Transmissions_Name",
+                "Transmissions",
+                "Name",
                 unique: true);
 
             migrationBuilder.AddForeignKey(
-                name: "FK_AspNetUserRoles_AspNetUsers_UserId",
-                table: "AspNetUserRoles",
-                column: "UserId",
-                principalTable: "AspNetUsers",
+                "FK_AspNetUserRoles_AspNetUsers_UserId",
+                "AspNetUserRoles",
+                "UserId",
+                "AspNetUsers",
                 principalColumn: "Id",
                 onDelete: ReferentialAction.Cascade);
         }
@@ -399,58 +381,58 @@
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
-                name: "FK_AspNetUserRoles_AspNetUsers_UserId",
-                table: "AspNetUserRoles");
+                "FK_AspNetUserRoles_AspNetUsers_UserId",
+                "AspNetUserRoles");
 
             migrationBuilder.DropTable(
-                name: "CarsOptions");
+                "CarsOptions");
 
             migrationBuilder.DropTable(
-                name: "Pictures");
+                "Pictures");
 
             migrationBuilder.DropTable(
-                name: "TestDrives");
+                "TestDrives");
 
             migrationBuilder.DropTable(
-                name: "Options");
+                "Options");
 
             migrationBuilder.DropTable(
-                name: "BaseCars");
+                "BaseCars");
 
             migrationBuilder.DropTable(
-                name: "Statuses");
+                "Statuses");
 
             migrationBuilder.DropTable(
-                name: "OptionTypes");
+                "OptionTypes");
 
             migrationBuilder.DropTable(
-                name: "Engines");
+                "Engines");
 
             migrationBuilder.DropTable(
-                name: "FuelTypes");
+                "FuelTypes");
 
             migrationBuilder.DropTable(
-                name: "ModelTypes");
+                "ModelTypes");
 
             migrationBuilder.DropTable(
-                name: "Series");
+                "Series");
 
             migrationBuilder.DropTable(
-                name: "Transmissions");
+                "Transmissions");
 
             migrationBuilder.DropColumn(
-                name: "FirstName",
-                table: "AspNetUsers");
+                "FirstName",
+                "AspNetUsers");
 
             migrationBuilder.DropColumn(
-                name: "LastName",
-                table: "AspNetUsers");
+                "LastName",
+                "AspNetUsers");
 
             migrationBuilder.AddForeignKey(
-                name: "FK_AspNetUserRoles_AspNetUsers_UserId",
-                table: "AspNetUserRoles",
-                column: "UserId",
-                principalTable: "AspNetUsers",
+                "FK_AspNetUserRoles_AspNetUsers_UserId",
+                "AspNetUserRoles",
+                "UserId",
+                "AspNetUsers",
                 principalColumn: "Id",
                 onDelete: ReferentialAction.Restrict);
         }

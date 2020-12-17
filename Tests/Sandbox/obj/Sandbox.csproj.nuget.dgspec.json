@@ -199,6 +199,15 @@
               },
               "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiStore.Common\\MocUpOfAudiStore.Common.csproj": {
                 "projectPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\MocUpOfAudiStore.Common\\MocUpOfAudiStore.Common.csproj"
+              },
+              "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Services\\MocUpOfAudiStore.Services.Data\\MocUpOfAudiStore.Services.Data.csproj": {
+                "projectPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Services\\MocUpOfAudiStore.Services.Data\\MocUpOfAudiStore.Services.Data.csproj"
+              },
+              "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Services\\MocUpOfAudiStore.Services.Mapping\\MocUpOfAudiStore.Services.Mapping.csproj": {
+                "projectPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Services\\MocUpOfAudiStore.Services.Mapping\\MocUpOfAudiStore.Services.Mapping.csproj"
+              },
+              "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Services\\MocUpOfAudiStore.Services\\MocUpOfAudiStore.Services.csproj": {
+                "projectPath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Services\\MocUpOfAudiStore.Services\\MocUpOfAudiStore.Services.csproj"
               }
             }
           }
@@ -213,9 +222,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -302,6 +315,10 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",

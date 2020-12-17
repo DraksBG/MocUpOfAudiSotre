@@ -1,11 +1,13 @@
 ﻿namespace MocUpOfAudiStore.Data.Repositories
 {
-    using MocUpOfAudiStore.Data.Interfaces;
-    using MocUpOfAudiStore.Data.Models;
+    using Interfaces;
+    using Models;
 
     public class ModelTypeRepository : BaseRepository<ModelType>, IModelTypeRepository
     {
         public ModelTypeRepository(ApplicationDbContext dbContext)
-            : base(dbContext) { }
+            : base(dbContext)
+        {
+        }
     }
 }

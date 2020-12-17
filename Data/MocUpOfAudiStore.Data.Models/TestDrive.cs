@@ -11,17 +11,14 @@
 
         [Required]
         public string CarId { get; set; }
-
         public BaseCar Car { get; set; }
 
         [Required]
         public string UserId { get; set; }
-
         public ApplicationUser User { get; set; }
 
         [Required]
         public string StatusId { get; set; }
-
         public Status Status { get; set; }
 
         [Required]

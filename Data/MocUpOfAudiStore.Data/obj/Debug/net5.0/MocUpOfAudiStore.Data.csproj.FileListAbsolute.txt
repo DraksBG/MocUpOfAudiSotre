@@ -23,3 +23,7 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data\obj\
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data\obj\Debug\net5.0\MocUpOfAudiStore.Data.genruntimeconfig.cache
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data\bin\Debug\net5.0\MocUpOfAudiStore.Services.Mapping.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data\bin\Debug\net5.0\MocUpOfAudiStore.Services.Mapping.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data\bin\Debug\net5.0\MocUpOfAudiStore.Services.Data.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data\bin\Debug\net5.0\MocUpOfAudiStore.Services.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data\bin\Debug\net5.0\MocUpOfAudiStore.Services.Data.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Data\MocUpOfAudiStore.Data\bin\Debug\net5.0\MocUpOfAudiStore.Services.pdb

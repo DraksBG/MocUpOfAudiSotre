@@ -3,9 +3,9 @@
     using System.Threading.Tasks;
 
     using MocUpOfAudiStore.Data.Common.Repositories;
-    using MocUpOfAudiStore.Data.Models;
+    using Models;
 
-   public  interface ICarOptionRepository : IRepository<CarOption>
+    public interface ICarOptionRepository : IRepository<CarOption>
     {
         Task RemoveAllWithCarIdAsync(string carId);
     }

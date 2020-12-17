@@ -1,9 +1,9 @@
 ﻿namespace MocUpOfAudiStore.Data.Interfaces
 {
     using MocUpOfAudiStore.Data.Common.Repositories;
-    using MocUpOfAudiStore.Data.Models;
+    using Models;
 
-   public interface INewCarRepository : IRepository<NewCar>
+    public interface INewCarRepository : IRepository<NewCar>
     {
     }
 }

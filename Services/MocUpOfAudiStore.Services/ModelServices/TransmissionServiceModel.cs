@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using AutoMapper;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using MocUpOfAudiStore.Data.Models;
-using MocUpOfAudiStore.Services.Mapping;
-
-namespace MocUpOfAudiStore.Services.ModelServices
+﻿namespace MocUpOfAudiStore.Services.ModelServices
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
+    using AutoMapper;
+    using Microsoft.AspNetCore.Mvc.Rendering;
+    using MocUpOfAudiStore.Data.Models;
+    using MocUpOfAudiStore.Services.Mapping;
+
     public class TransmissionServiceModel : IMapTo<SelectListItem>, IMapFrom<Transmission>, IHaveCustomMappings
     {
         public string Id { get; set; }

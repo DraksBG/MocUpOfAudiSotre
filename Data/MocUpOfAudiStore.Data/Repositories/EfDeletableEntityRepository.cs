@@ -2,7 +2,6 @@
 {
     using System;
     using System.Linq;
-
     using Microsoft.EntityFrameworkCore;
     using MocUpOfAudiStore.Data.Common.Models;
     using MocUpOfAudiStore.Data.Common.Repositories;
@@ -15,28 +14,43 @@
         {
         }
 
-        public override IQueryable<TEntity> All() => base.All().Where(x => !x.IsDeleted);
+        public override IQueryable<TEntity> All()
+        {
+            return base.All().Where(x => !x.IsDeleted);
+        }
 
-        public override IQueryable<TEntity> AllAsNoTracking() => base.AllAsNoTracking().Where(x => !x.IsDeleted);
+        public override IQueryable<TEntity> AllAsNoTracking()
+        {
+            return base.AllAsNoTracking().Where(x => !x.IsDeleted);
+        }
 
-        public IQueryable<TEntity> AllWithDeleted() => base.All().IgnoreQueryFilters();
+        public IQueryable<TEntity> AllWithDeleted()
+        {
+            return base.All().IgnoreQueryFilters();
+        }
 
-        public IQueryable<TEntity> AllAsNoTrackingWithDeleted() => base.AllAsNoTracking().IgnoreQueryFilters();
+        public IQueryable<TEntity> AllAsNoTrackingWithDeleted()
+        {
+            return base.AllAsNoTracking().IgnoreQueryFilters();
+        }
 
-        public void HardDelete(TEntity entity) => base.Delete(entity);
+        public void HardDelete(TEntity entity)
+        {
+            base.Delete(entity);
+        }
 
         public void Undelete(TEntity entity)
         {
             entity.IsDeleted = false;
             entity.DeletedOn = null;
-            this.Update(entity);
+            Update(entity);
         }
 
         public override void Delete(TEntity entity)
         {
             entity.IsDeleted = true;
             entity.DeletedOn = DateTime.UtcNow;
-            this.Update(entity);
+            Update(entity);
         }
     }
 }

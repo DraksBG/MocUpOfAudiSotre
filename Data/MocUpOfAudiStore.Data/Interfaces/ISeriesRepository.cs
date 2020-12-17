@@ -1,7 +1,7 @@
 ﻿namespace MocUpOfAudiStore.Data.Interfaces
 {
     using MocUpOfAudiStore.Data.Common.Repositories;
-    using MocUpOfAudiStore.Data.Models;
+    using Models;
 
     public interface ISeriesRepository : IRepository<Series>
     {

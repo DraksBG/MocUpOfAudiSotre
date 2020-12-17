@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "l44+1am6Az2MXONNOtzzD1S5uwWnUzGvtOxrJnfDmE/UNiDX4yRwkwrKC1Pe25Lo8grKz1qeKd8BAq3A6eheKA==",
+  "dgSpecHash": "7HmKLm4sHgnn0JqwmSTb9n/ffu0JBowd0ohZXjdN0gMqvwvT5n3LwCeJfNvgD5rq7/+GGQLoUpZbnF1ZuzAqTQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Web\\MocUpOfAudiStore.Web.Infrastructure\\MocUpOfAudiStore.Web.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dimitar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.304\\stylecop.analyzers.1.2.0-beta.304.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.304\\stylecop.analyzers.unstable.1.2.0.304.nupkg.sha512"
   ],

@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using MocUpOfAudiStore.Data.Models;
-using MocUpOfAudiStore.Services.Mapping;
-
-namespace MocUpOfAudiStore.Services.ModelServices
+﻿namespace MocUpOfAudiStore.Services.ModelServices
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
+    using MocUpOfAudiStore.Data.Models;
+    using MocUpOfAudiStore.Services.Mapping;
+
     public class UserServiceModel : IMapTo<ApplicationUser>
     {
         public string FirstName { get; set; }

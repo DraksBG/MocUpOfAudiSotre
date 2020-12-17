@@ -5,11 +5,10 @@
     using System.Reflection;
     using System.Threading;
     using System.Threading.Tasks;
-
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
     using MocUpOfAudiStore.Data.Common.Models;
-    using MocUpOfAudiStore.Data.Models;
+    using Models;
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
@@ -55,22 +54,27 @@
 
         public new DbSet<ApplicationUser> Users { get; set; }
 
-        public override int SaveChanges() => this.SaveChanges(true);
+        public override int SaveChanges()
+        {
+            return SaveChanges(true);
+        }
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
         {
-            this.ApplyAuditInfoRules();
+            ApplyAuditInfoRules();
             return base.SaveChanges(acceptAllChangesOnSuccess);
         }
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default) =>
-            this.SaveChangesAsync(true, cancellationToken);
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            return SaveChangesAsync(true, cancellationToken);
+        }
 
         public override Task<int> SaveChangesAsync(
             bool acceptAllChangesOnSuccess,
             CancellationToken cancellationToken = default)
         {
-            this.ApplyAuditInfoRules();
+            ApplyAuditInfoRules();
             return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
         }
 
@@ -79,7 +83,7 @@
             // Needed for Identity models configuration
             base.OnModelCreating(builder);
 
-            this.ConfigureUserIdentityRelations(builder);
+            ConfigureUserIdentityRelations(builder);
 
             EntityIndexesConfiguration.Configure(builder);
 
@@ -91,16 +95,13 @@
             foreach (var deletableEntityType in deletableEntityTypes)
             {
                 var method = SetIsDeletedQueryFilterMethod.MakeGenericMethod(deletableEntityType.ClrType);
-                method.Invoke(null, new object[] { builder });
+                method.Invoke(null, new object[] {builder});
             }
 
             // Disable cascade delete
             var foreignKeys = entityTypes
                 .SelectMany(e => e.GetForeignKeys().Where(f => f.DeleteBehavior == DeleteBehavior.Cascade));
-            foreach (var foreignKey in foreignKeys)
-            {
-                foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
-            }
+            foreach (var foreignKey in foreignKeys) foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
 
             builder.Entity<BaseCar>(car =>
             {
@@ -146,7 +147,7 @@
             {
                 carOption.HasKey(co => co.Id);
 
-                carOption.HasIndex(co => new { co.OptionId, co.CarId })
+                carOption.HasIndex(co => new {co.OptionId, co.CarId})
                     .IsUnique();
 
                 carOption.HasOne(co => co.Car)
@@ -246,10 +247,7 @@
                     .OnDelete(DeleteBehavior.Restrict);
             });
 
-            builder.Entity<Picture>(pictures =>
-            {
-                pictures.HasKey(p => p.Id);
-            });
+            builder.Entity<Picture>(pictures => { pictures.HasKey(p => p.Id); });
 
             builder.Entity<Series>(series =>
             {
@@ -297,11 +295,13 @@
 
         // Applies configurations
         private void ConfigureUserIdentityRelations(ModelBuilder builder)
-             => builder.ApplyConfigurationsFromAssembly(this.GetType().Assembly);
+        {
+            builder.ApplyConfigurationsFromAssembly(GetType().Assembly);
+        }
 
         private void ApplyAuditInfoRules()
         {
-            var changedEntries = this.ChangeTracker
+            var changedEntries = ChangeTracker
                 .Entries()
                 .Where(e =>
                     e.Entity is IAuditInfo &&
@@ -309,15 +309,11 @@
 
             foreach (var entry in changedEntries)
             {
-                var entity = (IAuditInfo)entry.Entity;
+                var entity = (IAuditInfo) entry.Entity;
                 if (entry.State == EntityState.Added && entity.CreatedOn == default)
-                {
                     entity.CreatedOn = DateTime.UtcNow;
-                }
                 else
-                {
                     entity.ModifiedOn = DateTime.UtcNow;
-                }
             }
         }
     }

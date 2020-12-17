@@ -1,10 +1,9 @@
-﻿using MocUpOfAudiStore.Services.Interfaces;
-
-namespace MocUpOfAudiStore.Web.Controllers
+﻿namespace MocUpOfAudiStore.Web.Controllers
 {
     using System.Diagnostics;
 
     using Microsoft.AspNetCore.Mvc;
+    using MocUpOfAudiStore.Services.Interfaces;
     using MocUpOfAudiStore.Web.ViewModels;
 
     public class HomeController : BaseController

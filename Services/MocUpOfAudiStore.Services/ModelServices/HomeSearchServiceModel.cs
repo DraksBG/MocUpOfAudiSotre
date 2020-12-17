@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using MocUpOfAudiStore.Common.Constants;
-using MocUpOfAudiStore.Common.Enums;
-
-namespace MocUpOfAudiStore.Services.ModelServices
+﻿namespace MocUpOfAudiStore.Services.ModelServices
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
+    using MocUpOfAudiStore.Common.Constants;
+    using MocUpOfAudiStore.Common.Enums;
+
     public class HomeSearchServiceModel
     {
         public CarType SelectedCarType { get; set; } = CarType.NewCar;

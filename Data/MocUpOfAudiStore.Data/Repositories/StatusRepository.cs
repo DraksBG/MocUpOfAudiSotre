@@ -2,10 +2,9 @@
 {
     using System.Linq;
     using System.Threading.Tasks;
-
     using Microsoft.EntityFrameworkCore;
-    using MocUpOfAudiStore.Data.Interfaces;
-    using MocUpOfAudiStore.Data.Models;
+    using Interfaces;
+    using Models;
 
     public class StatusRepository : BaseRepository<Status>, IStatusRepository
     {
@@ -16,7 +15,7 @@
 
         public async Task<string> GetIdByNameAsync(string name)
         {
-            var id = await this.GetAll()
+            var id = await GetAll()
                 .Where(s => s.Name == name)
                 .Select(s => s.Id)
                 .FirstAsync();

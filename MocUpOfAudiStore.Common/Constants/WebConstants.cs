@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MocUpOfAudiStore.Common.Constants
+﻿namespace MocUpOfAudiStore.Common.Constants
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
     public static class WebConstants
     {
         public const string AdminAreaName = "Admin";

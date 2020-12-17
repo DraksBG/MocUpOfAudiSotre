@@ -5,7 +5,7 @@
 
     using Microsoft.EntityFrameworkCore;
     using MocUpOfAudiStore.Data.Interfaces;
-    using MocUpOfAudiStore.Data.Models;
+    using Models;
 
     public class CarRepository : BaseRepository<BaseCar>, ICarRepository
     {
@@ -19,14 +19,14 @@
 
         public async Task<bool> IsType(Type type, string carId)
         {
-            var isType = await this.GetAll().AnyAsync(c => c is NewCar && c.Id == carId);
+            var isType = await GetAll().AnyAsync(c => c is NewCar && c.Id == carId);
 
             return isType;
         }
 
         public DbSet<TCar> Set<TCar>() where TCar : BaseCar
         {
-            return this.dbContext.Set<TCar>();
+            return dbContext.Set<TCar>();
         }
     }
 }
