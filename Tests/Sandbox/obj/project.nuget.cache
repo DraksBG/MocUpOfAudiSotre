@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qLwHlAOxJBOcM813hH7k3KH15drlTmU99U3sKMZgY8fV+LMzTdUziYNIHVHIFAFNuBga+edPRpbZpLKC0f9wYw==",
+  "dgSpecHash": "FyceaXEUY7+ub21c1Vt0VY8CowUNvCEWtXjFX0b8nF3EInS0kHTMaw7k/QO3S/CBZylNcQ5SKqiQ5O4ZPuTjBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dimitar\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\Dimitar\\.nuget\\packages\\cloudinary.core\\1.30.0\\cloudinary.core.1.30.0.nupkg.sha512",
+    "C:\\Users\\Dimitar\\.nuget\\packages\\cloudinary.core.dependencyinjection\\1.31.0\\cloudinary.core.dependencyinjection.1.31.0.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

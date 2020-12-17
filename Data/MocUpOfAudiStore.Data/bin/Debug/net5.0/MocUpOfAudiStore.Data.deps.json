@@ -51,6 +51,35 @@
           }
         }
       },
+      "Cloudinary.Core/1.30.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Html.Abstractions": "2.2.0",
+          "Newtonsoft.Json": "11.0.2",
+          "System.ComponentModel.Primitives": "4.3.0",
+          "System.Net.Http": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Serialization.Formatters": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Cloudinary.Core.dll": {
+            "assemblyVersion": "1.30.0.0",
+            "fileVersion": "1.30.0.0"
+          }
+        }
+      },
+      "Cloudinary.Core.DependencyInjection/1.31.0": {
+        "dependencies": {
+          "Cloudinary.Core": "1.30.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Cloudinary.Core.DependencyInjection.dll": {
+            "assemblyVersion": "1.31.0.0",
+            "fileVersion": "1.31.0.0"
+          }
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -1988,6 +2017,7 @@
       },
       "MocUpOfAudiStore.Common/1.0.0": {
         "dependencies": {
+          "Cloudinary.Core.DependencyInjection": "1.31.0",
           "Microsoft.Extensions.Identity.Core": "5.0.1"
         },
         "runtime": {
@@ -1996,6 +2026,7 @@
       },
       "MocUpOfAudiStore.Data.Common/1.0.0": {
         "dependencies": {
+          "Cloudinary.Core.DependencyInjection": "1.31.0",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "MocUpOfAudiStore.Common": "1.0.0",
           "System.ComponentModel.Annotations": "5.0.0"
@@ -2006,6 +2037,7 @@
       },
       "MocUpOfAudiStore.Data.Models/1.0.0": {
         "dependencies": {
+          "Cloudinary.Core.DependencyInjection": "1.31.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.1",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "MocUpOfAudiStore.Common": "1.0.0",
@@ -2063,6 +2095,20 @@
       "sha512": "sha512-dQyGCAYcHbGuimVvCMu4Ea2S1oYOlgO9XfVdClmY5wgygJMZoS57emPzH0qNfknmtzMm4QbDO9i237W5IDjU1A==",
       "path": "automapper.extensions.microsoft.dependencyinjection/8.1.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512"
+    },
+    "Cloudinary.Core/1.30.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ah+bB67vf2SQBZEWwfCMcqthxSbxKVArh1JPj07Uv46KHJw5nR82EXhiHErZzqT5LXGJNhN5A8J4p9d3aXd9xA==",
+      "path": "cloudinary.core/1.30.0",
+      "hashPath": "cloudinary.core.1.30.0.nupkg.sha512"
+    },
+    "Cloudinary.Core.DependencyInjection/1.31.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RybxOp58AA7bsB4Gnc/v0GvDsTFGhUipo6kj53Knwb8c9MdIfXr/r7t8ZMB1JHksbo44Ibn0tOgq7BUf6lR5PA==",
+      "path": "cloudinary.core.dependencyinjection/1.31.0",
+      "hashPath": "cloudinary.core.dependencyinjection.1.31.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

@@ -43,6 +43,10 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Cloudinary.Core.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.31.0, )"
+            },
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[5.0.1, )"

@@ -70,7 +70,11 @@ namespace MocUpOfAudiStore.Web
             services.AddTransient<ICarRepository, CarRepository>();
             services.AddTransient<ICarModelTypeService, CarModelTypeService>();
             //this.RegisterServiceLayer(services);
-            
+            var cloudinaryAccount = new CloudinaryDotNet.Account(
+                this.configuration["Cloudinary:CloudName"],
+                this.configuration["Cloudinary:ApiKey"],
+                this.configuration["Cloudinary:ApiSecret"]);
+            services.AddCloudinary(cloudinaryAccount, ServiceLifetime.Singleton);
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
             services.AddTransient<ISettingsService, SettingsService>();

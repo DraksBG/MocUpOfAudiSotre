@@ -5,7 +5,6 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Test
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\appsettings.json
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\bundleconfig.json
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\libman.json
-C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\MocUpOfAudiStore.Web.StaticWebAssets.xml
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\MocUpOfAudiStore.Web.exe
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\testhost.exe
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -114,7 +113,6 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Test
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
-C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
@@ -537,3 +535,7 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Test
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Cloudinary.Core.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Cloudinary.Core.DependencyInjection.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Web.Tests\bin\Debug\net5.0\MocUpOfAudiStore.Web.StaticWebAssets.xml

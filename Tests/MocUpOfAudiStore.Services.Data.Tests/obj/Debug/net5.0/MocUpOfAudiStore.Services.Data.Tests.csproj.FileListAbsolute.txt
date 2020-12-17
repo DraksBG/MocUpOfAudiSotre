@@ -211,3 +211,5 @@ C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Services
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Services.Data.Tests\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Services.Data.Tests\bin\Debug\net5.0\MocUpOfAudiStore.Services.dll
 C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Services.Data.Tests\bin\Debug\net5.0\MocUpOfAudiStore.Services.pdb
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Services.Data.Tests\bin\Debug\net5.0\Cloudinary.Core.dll
+C:\Users\Dimitar\Desktop\ASPWEB\MocUpOfAudiSotre\Tests\MocUpOfAudiStore.Services.Data.Tests\bin\Debug\net5.0\Cloudinary.Core.DependencyInjection.dll

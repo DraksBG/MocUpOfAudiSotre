@@ -50,6 +50,37 @@
           "lib/netstandard1.5/Castle.Core.dll": {}
         }
       },
+      "Cloudinary.Core/1.30.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Html.Abstractions": "1.1.0",
+          "Newtonsoft.Json": "9.0.1",
+          "System.ComponentModel.Primitives": "4.3.0",
+          "System.Net.Http": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.Serialization.Formatters": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Cloudinary.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Cloudinary.Core.dll": {}
+        }
+      },
+      "Cloudinary.Core.DependencyInjection/1.31.0": {
+        "type": "package",
+        "dependencies": {
+          "Cloudinary.Core": "1.30.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Cloudinary.Core.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Cloudinary.Core.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2522,7 +2553,7 @@
           "System.Runtime.Serialization.Primitives": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Runtime.Serialization.Formatters.dll": {}
         },
         "runtime": {
           "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": {}
@@ -2549,7 +2580,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
@@ -3186,6 +3217,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Cloudinary.Core.DependencyInjection": "1.31.0",
           "Microsoft.Extensions.Identity.Core": "5.0.1"
         },
         "compile": {
@@ -3221,6 +3253,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Cloudinary.Core.DependencyInjection": "1.31.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "MocUpOfAudiStore.Common": "1.0.0",
           "System.ComponentModel.Annotations": "5.0.0"
@@ -3236,6 +3269,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Cloudinary.Core.DependencyInjection": "1.31.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "MocUpOfAudiStore.Common": "1.0.0",
@@ -3345,6 +3379,30 @@
         "lib/netstandard1.5/Castle.Core.dll",
         "lib/netstandard1.5/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "Cloudinary.Core/1.30.0": {
+      "sha512": "ah+bB67vf2SQBZEWwfCMcqthxSbxKVArh1JPj07Uv46KHJw5nR82EXhiHErZzqT5LXGJNhN5A8J4p9d3aXd9xA==",
+      "type": "package",
+      "path": "cloudinary.core/1.30.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cloudinary.core.1.30.0.nupkg.sha512",
+        "cloudinary.core.nuspec",
+        "lib/netstandard1.6/Cloudinary.Core.dll"
+      ]
+    },
+    "Cloudinary.Core.DependencyInjection/1.31.0": {
+      "sha512": "RybxOp58AA7bsB4Gnc/v0GvDsTFGhUipo6kj53Knwb8c9MdIfXr/r7t8ZMB1JHksbo44Ibn0tOgq7BUf6lR5PA==",
+      "type": "package",
+      "path": "cloudinary.core.dependencyinjection/1.31.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cloudinary.core.dependencyinjection.1.31.0.nupkg.sha512",
+        "cloudinary.core.dependencyinjection.nuspec",
+        "lib/netstandard1.6/Cloudinary.Core.DependencyInjection.dll"
       ]
     },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {

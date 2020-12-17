@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "nbUWfp4mtAh2FbL0BUN29kNd+AqnRVg+e+HKtWtGYS0s0mjyCRCapAjGvOZfc2ybLIyx83FMyhq/Vo0VVEU4nQ==",
+  "dgSpecHash": "8awJLPJGEjmmadRhmR07Qxep3MMMy1La3KqLCai4BNXFxFnTbGxPk6yuGbqU4R/L2Kh2hNXD/P2zfK9NETamRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dimitar\\Desktop\\ASPWEB\\MocUpOfAudiSotre\\Tests\\MocUpOfAudiStore.Services.Data.Tests\\MocUpOfAudiStore.Services.Data.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dimitar\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\Dimitar\\.nuget\\packages\\cloudinary.core\\1.30.0\\cloudinary.core.1.30.0.nupkg.sha512",
+    "C:\\Users\\Dimitar\\.nuget\\packages\\cloudinary.core.dependencyinjection\\1.31.0\\cloudinary.core.dependencyinjection.1.31.0.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Dimitar\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
